@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical">
+    <TextView android:text="当前百分比" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal" android:textSize="18dip"></TextView>
+    <TableLayout android:layout_height="wrap_content" android:layout_width="fill_parent"
+    android:stretchColumns="1">
+    	<TableRow>
+    		<Button android:text="-" android:id="@+id/btnPrev" android:background="@drawable/btnblack" android:textSize="24dip" android:textColor="#FFFFFF" android:layout_height="wrap_content" android:layout_width="50dip"></Button>
+    		<SeekBar android:id="@+id/seekBar1" android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:max="99" android:layout_margin="10dip" android:layout_gravity="center_vertical"></SeekBar>
+		    <Button android:text="+" android:layout_height="wrap_content" android:id="@+id/btnNext" android:background="@drawable/btnblack" android:textSize="24dip" android:textColor="#FFFFFF" android:layout_width="50dip"></Button>
+    	</TableRow>
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, LoadingActivity!</string>
+    <string name="app_name">日本語一級文法</string>
+    <string name="catalog">文法目録</string>
+    <string name="last_time_readed">继续上次阅读</string>
+    <string name="start_reading">つづく</string>
+    <string name="bookmark">序跋</string>
+    <string name="about">关于</string>
+    <string name="back_main_view">バック</string>
+    <string name="book_name">日本語一級文法</string>
+    <string name="chapter_name">1　～あげくに（の）</string>
+    <string name="is_last_page">もうファーストページになりました!</string>
+    <string name="is_first_page">もうラストページになりました!</string>
+    <string name="about_text">本ソフトご使うのはありがとうございます!</string>
+    <string name="ok_btn">確認</string>
+    <string name="cancel_btn">キャンセル</string>
+    <string name="exit_dialog_title">終了確認</string>
+    <string name="exit_dialog_content">ご終了することを確認しますか？</string>
+    <string name="back_to_main">返回主页面</string>
+    <string name="menu_start_up_anim">开机动画</string>
+	<string name="pagename">com.japyijiwenfa</string>
+</resources>

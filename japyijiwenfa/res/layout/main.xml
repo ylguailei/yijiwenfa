@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:admobsdk="http://schemas.android.com/apk/lib/com.google.ads" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/logo3"
+    android:orientation="vertical" >
+
+    <LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:gravity="center"
+    	android:orientation="vertical"
+    	android:layout_marginTop="10dip"
+    	>
+    	<Button
+	        android:id="@+id/catalog_btn"
+	        android:layout_width="100dip"
+	        android:layout_height="40dip"
+	        android:gravity="center"
+	        android:textSize="20sp"
+	        android:background="@drawable/list_bg_selector"
+	        android:text="@string/catalog" />
+	    <Button
+	        android:id="@+id/start_reading_btn"
+	        android:layout_width="100dip"
+	        android:layout_height="40dip"
+	        android:gravity="center"
+	        android:layout_marginTop="10dip"
+	        android:layout_marginBottom="10dip"
+	        android:textSize="20sp"
+	        android:background="@drawable/list_bg_selector"
+	        android:text="@string/start_reading" />
+    </LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout01" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content"
+android:layout_x="0px"
+android:layout_y="0px"
+android:layout_alignParentBottom="true"
+></LinearLayout> 
+</RelativeLayout>

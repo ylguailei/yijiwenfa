@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" > 
+    <!-- 目录列表中的title -->
+	<LinearLayout 
+	    android:id="@+id/list_title"
+	    android:layout_width="fill_parent"
+	    android:background="@drawable/background"
+	    android:layout_height="50dip">
+	    <Button 
+	        android:layout_marginLeft="7dip"
+	        android:layout_gravity="center_vertical"
+	        android:id="@+id/back_main_view"
+	        android:gravity="center_vertical"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/list_bg_selector"
+	        android:textSize="20sp"
+	        android:textColor="@color/text_color"
+	        android:text="@string/back_main_view"/>
+	    <TextView 
+	        android:id="@+id/book_name"
+	        android:layout_gravity="center"
+	        android:gravity="center"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="25sp"
+	        android:textColor="@color/text_color"
+	        android:text="@string/book_name"/>
+	</LinearLayout>
+	<!-- 目录列表 -->
+	<LinearLayout android:id="@+id/LinearLayout01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:layout_x="0px"
+	android:layout_y="0px"
+	></LinearLayout>
+    <ListView 
+		android:background="@drawable/bg_splash"
+		android:listSelector="@drawable/list_bg_selector"
+        android:layout_below="@id/list_title"
+        android:id="@+id/catalog_listview"
+        android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:divider="@drawable/circle_list_divider"
+    	android:fastScrollEnabled="true"
+    	android:cacheColorHint="#00000000"
+    	android:fadingEdge="none">
+        
+    </ListView>
+</RelativeLayout>
